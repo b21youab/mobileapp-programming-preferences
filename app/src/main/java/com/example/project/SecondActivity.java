@@ -38,7 +38,6 @@ public class SecondActivity extends AppCompatActivity {
         EditText userInputEditText = findViewById(R.id.showInput);
         String userInputData = userInputEditText.getText().toString();
 
-    //    SharedPreferences sharedPreferences = getSharedPreferences("inputData", MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
         editor.putString(key, userInputData);
