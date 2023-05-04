@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
+
+
     <EditText
         android:id="@+id/showInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/app_name"
+        android:hint="@string/input"
         android:maxEms="20"
         android:minEms="10"
         android:textSize="24sp"
@@ -21,11 +23,11 @@
         app:layout_constraintVertical_bias="0.19999999" />
 
     <Button
-        android:id="@+id/second_button_save"
+        android:id="@+id/secondButtonsave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="I am a Button"
+        android:text="Click me"
         app:layout_constraintEnd_toEndOf="@+id/showInput"
         app:layout_constraintStart_toStartOf="@+id/showInput"
         app:layout_constraintTop_toBottomOf="@+id/showInput" />
